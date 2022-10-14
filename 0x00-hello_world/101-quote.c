@@ -7,8 +7,9 @@
  */
 int main(void)
 {
-	char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char myStr[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	fwrite(1, quo, 59);
+	write(2, myStr, sizeof(myStr) - 1);
+
 	return (1);
 }
