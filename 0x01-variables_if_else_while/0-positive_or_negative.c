@@ -1,17 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - print whether the number stored in the variable n is positive or negativen or 0
  *
- * Return: always 0
+ * Return: always 0 (success)
  */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n = read() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
 	/*my code*/
 	if (n > 0)
