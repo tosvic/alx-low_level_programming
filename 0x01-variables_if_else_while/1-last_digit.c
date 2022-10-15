@@ -20,7 +20,7 @@ int main(void)
 	if (lastDigit > 5)
 	{
 		printf("and is greater than 5\n");
-	} else if (lastDigit == o)
+	} else if (lastDigit == 0)
 	{
 		printf("and is 0\n");
 	} else
@@ -29,3 +29,4 @@ int main(void)
 	}
 
 	return (0);
+}
