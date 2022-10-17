@@ -9,15 +9,15 @@
  */
 int main(void)
 {
-	int dig = 0;
+	int digit = 0;
 
-	while (dig <= 9)
+	while (digit <= 9)
 	{
 		/*convert digit to ASCII representation*/
-		putchar(dig + '0');
-		++dig;
+		putchar(digit + '0');
+		++digit;
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
