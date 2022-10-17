@@ -13,6 +13,7 @@ int main(void)
 
 	while (dig <= 9)
 	{
+		/*convert digit to ASCII representation*/
 		putchar(dig + '0');
 		++dig;
 	}
