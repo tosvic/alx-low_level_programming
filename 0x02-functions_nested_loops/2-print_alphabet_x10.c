@@ -2,7 +2,7 @@
 
 /**
  *main - Entry point
- * Description: print_alphabet_x10 - function
+ * Description: print_alphabet_x10 - function that will print 10 times
  *
  * Return: Always 0 (Success)
  */
