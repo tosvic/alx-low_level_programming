@@ -9,12 +9,12 @@
  */
 void print_array(int *a, int n)
 {
-	int num = 0;
+	int i = 0;
 
-	for (; num < n; num++)
+	for (; i < n; i++)
 	{
-		printf("%d", *(a + num));
-		if (num != (n - num))
+		printf("%d", *(a + i));
+		if (i != (n - 1))
 			printf(", ");
 	}
 	printf("\n");
