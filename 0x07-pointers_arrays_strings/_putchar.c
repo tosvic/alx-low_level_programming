@@ -1,3 +1,4 @@
+#include "main.h"
 #include <unistd.h>
 
 /**
@@ -5,7 +6,7 @@
  * @c: the character to print
  *
  * Return: on sucess 1.
- * on error, -1 is return, and error is set appropriately,
+ * on error, -1 is return, and errno is set appropriately,
  */
 int _putchar(char c)
 {
