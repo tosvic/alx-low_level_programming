@@ -5,12 +5,12 @@
  * @y: the power to raise @n to
  * Return: the value of @x to the @y power
  */
-int _pow_recursion(int i, int j)
+int _pow_recursion(int x, int y)
 {
-	if (j < 0)
+	if (y < 0)
 		return (-1);
-	if (j == 0)
+	if (y == 0)
 		return (1);
 
-	return (i * (_pow_recursion(i, j - 1)));
+	return (x * (_pow_recursion(x, y - 1)));
 }
